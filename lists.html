@@ -7,68 +7,67 @@
 </head>
     <body>
         <h1>Ordered and Unordered Lists, Nesting, Value, Start and Reversed</h1>
-        <!--Ordered lists start with <ol>, unordered lists start with <ul>  -->
-        <!-- You can nest a list by opening a list style and open and close a new list style within the orignal-->
-         <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-         </ul>
+    <!--Ordered lists start with <ol>, unordered lists start with <ul>  -->
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+             <li>Item 3</li>
+            </ul>
 
-         <ol>
-            <li>First</li>
-            <li>Second</li>
-            <li>Third</li>
-         </ol>
-         
-         <ol>
-            <li>First</li>
-            <li>Second</li>
-            <li>Third</li>
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
-            <li>Fourth</li>
-            <li>Fifth</li>
-         </ol>
+            <ol>
+                <li>First</li>
+                <li>Second</li>
+             <li>Third</li>
+            </ol>
+    <!-- You can nest a list by opening a list style and open and close a new list style within the orignal-->
+            <ol>
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                <li>Fourth</li>
+                <li>Fifth</li>
+            </ol>
 
-        <!-- Start in an ordered list will start with the number designated <ol start="30"> -->
-        <ol start="30">
-            <li>Thirty</li>
-            <li>Thirty One</li>
-            <li>Thirty Two</li>
-            <li>Thirty Three</li>
-        </ol>
+    <!-- Start in an ordered list will start with the number designated <ol start="30"> -->
+            <ol start="30">
+                <li>Thirty</li>
+                <li>Thirty One</li>
+                <li>Thirty Two</li>
+                <li>Thirty Three</li>
+            </ol>
 
-        <!-- Value within an Ordered list <li value="9"> will start with 9 and continue numerically -->
-        <ol>
-            <li>Item 1</li>
-            <li value="9">Item 9</li>
-            <li>Item 10</li>
-        </ol>
+    <!-- Value within an Ordered list <li value="9"> will start with 9 and continue numerically -->
+            <ol>
+                <li>Item 1</li>
+                <li value="9">Item 9</li>
+                <li>Item 10</li>
+            </ol>
 
-        <!-- Reversed will show ordered lists in reverse <ol reversed> -->
-        <ol reversed>
-            <li>reversed</li>
-            <li>be</li>
-            <li>will</li>
-            <li>This</li>
-        </ol>
+    <!-- Reversed will show ordered lists in reverse <ol reversed> -->
+            <ol reversed>
+                <li>reversed</li>
+                <li>be</li>
+                <li>will</li>
+                <li>This</li>
+            </ol>
 
-    <h2> Descriptive Lists</h2>
-        <!-- Descriptive list are used to outline multiple terms and their descriptions.
-        <dl>=descriptive list, <dt>=description term, <dd>=descritpion element
-        you may use multiple description elements -->
-        <dl>
-            <dt>First term</dt>
-                <dd>First element</dd>
-                <dd>Second element</dd>
-            <dt>Second term</dt>
-                <dd>First element</dd>
-                <dd>Second element</dd>
-        </dl>
+        <h2> Descriptive Lists</h2>
+    <!-- Descriptive list are used to outline multiple terms and their descriptions.
+    <dl>=descriptive list, <dt>=description term, <dd>=descritpion element
+    you may use multiple description elements -->
+            <dl>
+                <dt>First term</dt>
+                    <dd>First element</dd>
+                    <dd>Second element</dd>
+                <dt>Second term</dt>
+                    <dd>First element</dd>
+                    <dd>Second element</dd>
+            </dl>
 
     </body>
 </html>
